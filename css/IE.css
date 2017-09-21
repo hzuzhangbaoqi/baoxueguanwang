@@ -1,0 +1,36 @@
+.home_video_bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: 14;
+	text-align: center;
+	
+}
+.home_video_bg span{
+	background: red;
+	color: #FFFFFF;
+	text-align: center;
+	font: bold 24px/64px "arial black";
+	position: absolute;
+	top: 250px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+}
+.home_video_bg p{
+	width:800px;
+	height: 500px;
+	font-size: 36px;
+	color: #FFFFFF;
+	text-align: center;
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: -400px;
+}

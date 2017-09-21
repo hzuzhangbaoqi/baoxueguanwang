@@ -1,0 +1,66 @@
+#login_wrap{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	height: 1200px;
+	background-image: url('../images/login/login-background.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	/*padding: 0;
+	margin: 0!important;*/
+	}
+.login{
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid transparent;
+}
+h1.logo{
+	width: 200px;
+	height: 105px;
+	background-image: url('../images/login/blizzard-default.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	vertical-align: middle;
+	text-indent: -9999px;
+	margin: 0 auto;
+	margin-top: 50px;
+	/*margin-top: 55px;*/
+}
+.login input{
+	width: 360px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	border-radius: 2px;
+	vertical-align: middle;
+	border: 1px solid rgba(255,255,255,0.3);
+	font-size: 16px;
+	color: rgba(255,255,255,0.7);
+	padding:0 10px;
+	margin: 20px auto;
+	line-height: 40px;
+}
+.login input:hover{
+	border: 1px solid rgba(255,255,255,0.6);
+}
+.login input.btn{
+	background: #CCCCCC;
+}
+.login input.btn .now{
+	background: #6495ED;
+}
+span.line{
+	display: inline-block;
+	width: 450px;
+	height: 1px;
+	margin: 20px auto;
+	background: rgba(255,255,255,0.3);
+}
+.login input.reset{
+	background: red;
+	color: #FFFFFF;
+	margin: 10px auto;
+	cursor: pointer;
+}

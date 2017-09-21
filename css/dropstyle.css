@@ -1,0 +1,147 @@
+/*------------ Color Palette ------------*/
+/*
+LIGHT ORANGE: #e4644b
+DARK ORANGE: #d05942
+DARK BROWN: #484141
+Menu text: #f7f1e3
+Submenu text: #ae9f9f
+*/
+
+/*------------ General Settings ------------*/
+/*@import url(https://fonts.useso.com/css?family=Montserrat);*/
+
+body {
+	margin:0;
+	padding:0;
+	font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+	letter-spacing: 0.2px;
+}
+
+/*ul {
+	list-style: none;
+	width: 276px;
+}
+
+li {
+	cursor: pointer;
+}*/
+
+.mainmenu {
+	font-size: 16px;
+	position:relative;
+	padding:0;
+}
+
+.mainmenu > li {
+	background-color: black;
+	width: 235px;
+	height: 50px;
+	color: #f7f1e3;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.mainmenu > li:first-child {
+	border-radius: 7px 7px 0 0;
+	border-top: 0;
+}
+
+.mainmenu > li:nth-of-type(8) {
+	border-radius: 0 0 7px 7px;
+}
+
+
+.mainmenu > li span {
+	display:block;
+	line-height: 48px;
+}
+
+.mainmenu > li .icon {
+	margin-right: 10px;
+	float: left;
+	width: 45px;
+	height: 45px;
+	display:inline-block;
+	background-image: url('../images/shangcheng/sprite-sidebar-4849d6a462.png');
+}
+
+.mainmenu > li .messages {
+	background: url("../images/messages.png") no-repeat;
+	padding: 0;
+	margin-top: -33px;
+	margin-right: 19px;
+	float: right;
+	display: block;
+	width: 34px;
+	height: 18px;
+	text-align: center;
+	font-size: 11px;
+	line-height: 19px;
+}
+
+/*------------ Sub Menu ------------*/
+.submenu {
+	box-sizing: border-box;
+	color: #ae9f9f;
+	font-size: 13px;
+	content: " ";
+	/*opacity: 0.5;*/
+}
+
+.submenu li {
+	width: 235px;
+	box-sizing: border-box;
+	line-height: 20px;
+	height: 35px;
+	padding-top: 11px;
+	background-color: #484141;
+	border-left: solid 6px #484141;
+	transition: border-left 220ms ease-in;
+}
+
+.submenu .chosen,
+.submenu .chosen:hover {
+	border-left: solid 6px #96d145;
+}
+
+.submenu li:hover {
+	border-left: solid 6px #d05942;
+}
+
+.submenu li span {
+	margin-left:30px;
+}
+
+.animate {
+	animation: flip 2000ms ease-in-out alternate;
+}
+
+@keyframes flip {
+	to {
+		transform: rotateY(360deg);
+	}
+}
+.moshou{
+	background-position: 0 0;
+}
+.shouwangxianfeng{
+	background-position: -45px 0;
+}
+.anhei{
+	background-position: -90px 0;
+}
+.lvshi{
+	background-position: -135px 0;
+}
+.fengbao{
+	background-position: -180px 0;
+}
+.xingji{
+	background-position: -225px 0;
+}
+.zhanghaofuwu{
+	background-position: -270px 0;
+}
+.jianianhua{
+	background-position: -315px 0;
+}
